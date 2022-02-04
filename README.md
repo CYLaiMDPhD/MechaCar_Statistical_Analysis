@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-*Note: This repository was created to fulfill an assignment (Module 14 Challenge) for the UC Berkeley Data Analytics and Visualization Bootcamp. Submitted on 2-4-22 for grading.*
+*Note: This repository was created to fulfill an assignment (Module 15 Challenge) for the UC Berkeley Data Analytics and Visualization Bootcamp. Submitted on 2-4-22 for grading.*
 
 
 
@@ -17,9 +17,9 @@ Fictional data files used were provided as part of course materials:
 **(Deliverable 1)**
 
 
-Fifty prototypes of the MechaCar have been produced so far. A basic performance measure (mpg) was determined for each prototype and linear regression was performed against 5 independent variables: vehicle length, vehicle width, spoiler angle, ground clearance, and AWD. Figure 1 below shows the results of this statistical analysis. 
+Fifty prototypes of the MechaCar have been produced so far. A basic performance measure (mpg) was determined for each prototype and linear regression was performed against five independent variables: vehicle length, vehicle width, spoiler angle, ground clearance, and AWD. Figure 1 below shows the results of this statistical analysis. 
 
-**Figure 1: Results of Multiple Linear Regression for Prototype MPG**
+**Figure 1: Results of Multiple Linear Regression for Prototype MPGs**
 
 ![Del_1.png](/Images/Del_1.png)
 
@@ -38,7 +38,7 @@ The performance of three different lots of suspension coils were analyzed. Figur
 ![Del_2-1.png](/Images/Del_2-1.png)
 
 
-Figure 3 below show statistical summaries of the performance of suspension coils by lot. Lot 3 has a high variance (170), well over the design specifications and should not be used in production. Lots 1 and 2 both had very low variance in comparison, indicting consistency in manufacturing. Use of lot 3 may increase risk of failure in the prototypes.
+Figure 3 below shows statistical summaries of the performance of suspension coils by lot. Lot 3 has a high variance (170), well over the design specifications and should not be used in production. Lots 1 and 2 both had very low variance in comparison, indicting consistency in manufacturing. Use of lot 3 may increase risk of failure in the prototypes, leading to production delays.
 
 **Figure 3: Performance (PSI) of Suspension Coils - Individual Lots**
 
@@ -68,15 +68,15 @@ The performance of each individual lot of suspension coils were compared against
 ---
 ## Study Design: MechaCar vs Competition
 
-Several tests can be performed the evaluate the performance of MechaCar prototypes against competitor vehicles. As MechaCar is designed to be a practical sedan, important consumer measures should include fuel efficiency and maintenance costs. Table 1 below summarizes the statistical tests and data needed to evaluate these metrics.
+Several tests can be performed the evaluate the performance of MechaCar prototypes against competitor vehicles. As MechaCar is designed to be a practical sedan, important consumer measures should include fuel efficiency and maintenance costs. Table 1 below summarizes the statistical tests and data needed to evaluate these metrics in different ways.
 
 **Table 1: Additional MechaCar Studies**
 
 |Metric for Testing| Fuel Efficiency - Highway | Fuel Efficiency - City | Maintenance Costs |
 |---|---|---|---|
-|Null Hypothesis|The MechaCar is no more fuel efficient than all cars in the same class.|The MechaCar no more fuel efficient than the leading competitor car in the same class.|The MechaCar is not more expensive to maintain in the 1st 5 years compared to the top 3 competitor vehicles in the same class|
+|Null Hypothesis|The MechaCar is no more fuel efficient than all cars in the same class.|The MechaCar is no more fuel efficient than the leading competitor car in the same class.|The MechaCar is not more expensive to maintain in the 1st 5 years compared to the top 3 competitor vehicles in the same class|
 |Alternate Hypothesis|The MechaCar is more fuel efficient than all cars in th same class by 10 mpg.|The MechaCar is more fuel efficient than the leading competitor car in the same class by 5 mpg.| The MechaCar costs $5,000 less to maintain than the top 3 competitor vehicles.|
 |Statistical Test|One Sample T-Test against population|Two-Sample Paired T-Test|ANOVA|
-|Data Needed|||Average maintanence costs of top 3 competitor vehicles in the 1st 5 years and projected maintainence costs of the MechaCar over the 1st 5 years. MechaCar projections can be made based on previous cars produced with similar parts and technology.|
+|Data Needed|Highway mpg for MechCar and all competitor cars in the same class.|City mpg for MechCar and top competitor car in the same class.|Average maintanence costs of top 3 competitor vehicles in the 1st 5 years and projected maintainence costs of the MechaCar over the 1st 5 years. MechaCar projections can be made based on previous cars produced with similar parts and technology.|
 
 
