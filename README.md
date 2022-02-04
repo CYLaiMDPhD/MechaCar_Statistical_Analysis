@@ -75,7 +75,7 @@ Several tests can be performed the evaluate the performance of MechaCar prototyp
 |Metric for Testing| Fuel Efficiency - Highway | Fuel Efficiency - City | Maintenance Costs |
 |---|---|---|---|
 |Null Hypothesis|The MechaCar is no more fuel efficient than all cars in the same class.|The MechaCar is no more fuel efficient than the leading competitor car in the same class.|The MechaCar is not more expensive to maintain in the 1st 5 years compared to the top 3 competitor vehicles in the same class|
-|Alternate Hypothesis|The MechaCar is more fuel efficient than all cars in th same class by 10 mpg.|The MechaCar is more fuel efficient than the leading competitor car in the same class by 5 mpg.| The MechaCar costs $5,000 less to maintain than the top 3 competitor vehicles.|
+|Alternate Hypothesis|The MechaCar is more fuel efficient than all cars in th same class by 10 mpg.|The MechaCar is more fuel efficient than the leading competitor car in the same class by 5 mpg.| The MechaCar costs $5,000 less to maintain than the top 3 competitor vehicles in the first 5 years.|
 |Statistical Test|One Sample T-Test against population|Two-Sample Paired T-Test|ANOVA|
 |Data Needed|Highway mpg for MechCar and all competitor cars in the same class.|City mpg for MechCar and top competitor car in the same class.|Average maintanence costs of top 3 competitor vehicles in the 1st 5 years and projected maintainence costs of the MechaCar over the 1st 5 years. MechaCar projections can be made based on previous cars produced with similar parts and technology.|
 
