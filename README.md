@@ -49,20 +49,25 @@ Figure 3 below shows statistical summaries of the performance of suspension coil
 ## T-Tests on Suspension Coils
 **(Deliverable 3)**
 
-The performance of each individual lot of suspension coils were compared against all lots as a whole using t-tests. Figures 4 - 6 below show the results for each lot. While means for all lots were close (within about 2 PSI) to the population mean of 1498.78, lots 1 and 2 differed significantly from the total population, with p-values of 1.57^(-11) and 0.00059 respectively. The mean for lot 3 was 1496.14, but was not statistically different from the total population since the p-value was 0.159. Along with the results above, these results indicate that there is higher variability in lot 3, which contributed to the overall population variability.
+The performance of the current production set of suspension coils was evaluated against a historical population mean of 1500 PSI per coil. Figure 4 below displays the results for all lots as a whole while figures 5 - 7 show the results for each lot. Taken together, all three lots did not show a statistically significant difference from the population mean of 1500 (figure 4). However, when evaluated separately, lot 3 did show a statistically significant difference with a p-value of 0.04168 (figure 7). Along with the results above, these results indicate that there is higher variability in lot 3, which contributed to the overall population variability.
 
 
-**Figure 4: T-Test for Lot 1 Suspension Coils**
 
-![Del_3_Lot1.png](/Images/Del_3_Lot1.png)
+**Figure 4: T-Test for All Lots of Suspension Coils**
 
-**Figure 5: T-Test for Lot 2 Suspension Coils**
+![Del_3-1.png](/Images/Del_3-1.png)
 
-![Del_3_Lot2.png](/Images/Del_3_Lot2.png)
+**Figure 5: T-Test for Lot 1 Suspension Coils**
 
-**Figure 6: T-Test for Lot 3 Suspension Coils**
+![Del_3-2.png](/Images/Del_3-2.png)
 
-![Del_3_Lot3.png](/Images/Del_3_Lot3.png)
+**Figure 6: T-Test for Lot 2 Suspension Coils**
+
+![Del_3-3.png](/Images/Del_3-3.png)
+
+**Figure 7: T-Test for Lot 3 Suspension Coils**
+
+![Del_3-4.png](/Images/Del_3-4.png)
 
 
 ---

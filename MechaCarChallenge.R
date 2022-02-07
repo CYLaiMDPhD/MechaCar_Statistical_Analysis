@@ -27,13 +27,16 @@ View(lot_summary)
 
 
 # Deliverable 3
+#T-test of total population to mean of 1500
+t.test(Suspension$PSI, mu=1500)
+
 # Create subsets for each lot
 lot1 <- subset(Suspension, Manufacturing_Lot == "Lot1")
 lot2 <- subset(Suspension, Manufacturing_Lot == "Lot2")
 lot3 <- subset(Suspension, Manufacturing_Lot == "Lot3")
 
 # T Tests of each lot to total population
-t.test(lot1$PSI, mu=mean(Suspension$PSI))
-t.test(lot2$PSI, mu=mean(Suspension$PSI))
-t.test(lot3$PSI, mu=mean(Suspension$PSI))
+t.test(lot1$PSI, mu=1500)
+t.test(lot2$PSI, mu=1500)
+t.test(lot3$PSI, mu=1500)
 
