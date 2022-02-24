@@ -1,7 +1,22 @@
 # MechaCar_Statistical_Analysis
 
-*Note: This repository was created to fulfill an assignment (Module 15 Challenge) for the UC Berkeley Data Analytics and Visualization Bootcamp. Submitted on 2-4-22 for grading.*
+*Note: This repository was created to fulfill an assignment (Module 15 Challenge) for the UC Berkeley Data Analytics and Visualization Bootcamp. The analysis, content, and format of this report were based on the grading rubric.*
 
+*Module exercises included:*
+- *Installation and introduction to R and RStudio*
+- *Reading and writing data in R*
+- *R Functions*
+- *Introduction and use of Tidyverse Package*
+- *Plotting charts using ggplot*
+  - *bar, line, scatter, box plots*
+  - *heatmaps, layers*
+- *Review of statitics, hypothesis testing, and applying statistical tests*
+  - *T-tests*
+  - *ANOVA*
+  - *Single and multiple linear regression*
+  - *A/B Testing*
+
+*The report below is based on analyses and code in MechaCarChallenge.R*
 
 
 ## OVERVIEW
