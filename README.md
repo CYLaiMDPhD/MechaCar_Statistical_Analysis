@@ -6,7 +6,10 @@
 - *Installation and introduction to R and RStudio*
 - *Reading and writing data in R*
 - *R Functions*
-- *Introduction and use of Tidyverse Package*
+- *Introduction and use of the Tidyverse Package*
+  - *transforming/mutate function*
+  - *grouping data*
+  - *reshaping data*
 - *Plotting charts using ggplot*
   - *bar, line, scatter, box plots*
   - *heatmaps, layers*
